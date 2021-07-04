@@ -54,3 +54,10 @@ Starting a Gradle Daemon, 1 incompatible and 2 stopped Daemons could not be reus
 <==========---> 80% EXECUTING [1m 14s]
 > :bootRun
 ```
+
+7. Create controller package me.thaithien.turorial.rest.payroll.PayrollApp.controller
+
+8. Create EmployeeController, EmployeeNotFoundAdvice, EmployeeNotFoundException
+
+
+   
