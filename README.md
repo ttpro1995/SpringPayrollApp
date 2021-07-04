@@ -60,4 +60,53 @@ Starting a Gradle Daemon, 1 incompatible and 2 stopped Daemons could not be reus
 8. Create EmployeeController, EmployeeNotFoundAdvice, EmployeeNotFoundException
 
 
-   
+# API for postman 
+
+```json
+{
+  "info": {
+    "_postman_id": "67dc2dd8-58ed-4d3e-8cc3-a6dce04ce39d",
+    "name": "Spring tutorial payroll stage1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "get all employees",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/employees",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "employees"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get employees by id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/employees/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "employees",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
+```
